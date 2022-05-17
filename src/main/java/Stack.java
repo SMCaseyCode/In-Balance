@@ -7,17 +7,19 @@ public class Stack<T extends Object> implements StackInterface<T> {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        Stack s = new Stack();
+        Stack<Character> s = new Stack<Character>();
 
         System.out.println("Enter an expression to test if balanced:");
         String userInput = scan.next();
         char[] expression = userInput.toCharArray();
+        char c;
 
         for(int i = 0; i < userInput.length(); i++) {
 
             if(expression[i] == '{' || expression[i] == '(' || expression[i] == '[') {
 
-                s.push(i);
+                c = expression[i];
+                s.push(c);
             }
 
             if(expression[i] == '}' || expression[i] == ')' || expression[i] == ']') {
@@ -27,13 +29,15 @@ public class Stack<T extends Object> implements StackInterface<T> {
                     return;
                 }
 
-                System.out.println(s.peek());
-
-                if(s.peek().equals('(') ){      //No Worky.
-
+                if(s.peek().equals('(') && expression[i] == ')'){
                     s.pop();
                 }
-
+                else if(s.peek().equals('[') && expression[i] == ']'){
+                    s.pop();
+                }
+                else if(s.peek().equals('{') && expression[i] == '}'){
+                    s.pop();
+                }
             }
         }
 

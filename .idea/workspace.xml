@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60c10b66-9003-4536-99d0-5231ed15cbc1" name="Changes" comment="Completed class setup for balance">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/In-Balance.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StackInterface.java" afterDir="false" />
+    <list default="true" id="60c10b66-9003-4536-99d0-5231ed15cbc1" name="Changes" comment="All but Peeking working.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StackClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/balanceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BalanceInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +117,7 @@
       <workItem from="1652558623771" duration="315000" />
       <workItem from="1652558948690" duration="585000" />
       <workItem from="1652590240449" duration="1229000" />
-      <workItem from="1652740372310" duration="12141000" />
+      <workItem from="1652740372310" duration="14002000" />
     </task>
     <task id="LOCAL-00001" summary="Completed class setup for balance">
       <created>1651622692459</created>
@@ -136,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651622692459</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="All but Peeking working.">
+      <created>1652753325610</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652753325610</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +164,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Completed class setup for balance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed class setup for balance" />
+    <MESSAGE value="All but Peeking working." />
+    <option name="LAST_COMMIT_MESSAGE" value="All but Peeking working." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
