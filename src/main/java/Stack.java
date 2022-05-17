@@ -25,7 +25,7 @@ public class Stack<T extends Object> implements StackInterface<T> {
             if(expression[i] == '}' || expression[i] == ')' || expression[i] == ']') {
 
                 if(s.isEmpty()){
-                    System.out.println("False1");
+                    System.out.println("False");
                     return;
                 }
 
